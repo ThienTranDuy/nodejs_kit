@@ -1,0 +1,84 @@
+<html> 
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Email template</title>
+    <style type="text/css">
+        .wrapper_one {
+            font-size: 14px;
+            color: black;
+        }
+
+        .wrapper_two {
+            font-size: 14px;
+            color: black;
+            padding: 2rem 15px;
+            background: #f5f5f5;
+        }
+
+        .boxmail {
+            background: white;
+            width: 90%;
+            margin: auto;
+            max-width: 680px;
+            min-width: 280px;
+            padding: 2rem;
+            border: 1px solid #eaeaea;
+            border-bottom: 2px solid #eaeaea;
+        }
+
+        .logo {
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #ededed;
+            margin-bottom: 1.5rem;
+        }
+        
+        .logo img {
+            max-height: 4rem;
+        }
+        
+        .tb_title {
+            font-weight: 600;
+            min-width: 100px;
+            padding-right: .5rem;
+        }
+
+        .postscript {
+            font-style: italic;
+            font-size: .8rem;
+        }
+
+        .copyright {
+            font-size: .8rem;
+            color: #646464;
+            text-align: center;
+        }
+        
+        .copyright a {
+            color: #717171;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="wrapper_two">
+            <div class="boxmail">
+                {{!-- <div class="logo">
+                    <img src="https://hoinhaygame.vn/assets/logo/logo-86x46.png" alt="Logo" />
+                </div> --}}
+                <div class="message">
+                  {{body}}
+                </div>
+                <div class="postscript">
+                    <p>This is an automatic message from system, please do not reply    </p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Message developed by <a href="https://hoinhaygame.vn" title="Hội Nhảy Game">Hội Nhảy Game</a></p>
+            </div>
+        </div>
+    </div>
+</body> 
+</html>

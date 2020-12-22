@@ -1,0 +1,12 @@
+{
+  "apps" : [{
+    "name"        : "api",
+    "script"      : "bin/www",
+    "watch"       : false,
+    "ignore_watch": ["log"],
+    "watch_options": {
+      "followSymlinks": false
+  },
+    "log_date_format"  : "YYYY-MM-DD HH:mm Z"
+  }]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "saladci.com",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "SET DEBUG=api & nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.23.0",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "http-errors": "~1.6.3",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.9",
+    "morgan": "~1.9.1",
+    "node-sass-middleware": "0.11.0",
+    "nodemailer": "^6.4.14",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "nodemon": "^2.0.6",
+    "request-ip": "^2.1.3",
+    "validator": "^13.5.2"
+  }
+}
