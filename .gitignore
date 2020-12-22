@@ -86,6 +86,8 @@ typings/
 
 # route dev
 routes/thien.route.js
+middlewares/auth.middleware.js
+constants/system.constant.js
 
 # log
 logs/*

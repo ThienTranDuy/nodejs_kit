@@ -23,8 +23,6 @@ const UserSchema = new Schema(
     type: { type: Number },
     status: { type: Number, enum: [StatusUser._InActive, StatusUser._Active] },
     gender: { type: Number, enum: [Gender._Male, Gender._Female] },
-    exp: Number,
-    level: Number,
     // Reference
     roles: [{ type: mongoose.Schema.Types.ObjectId, ref: "Roles" }],
     facebookDetail: {
